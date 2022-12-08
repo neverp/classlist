@@ -3,8 +3,8 @@ import time
 import datetime
 
 # WebHook地址
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=df699b65ae2f53ec3d16123e83d4d0ba005dad250e8fa7184339ed57149867ee'
-secret = 'SEC35877afc320ab2322316c512b5f6af90339be90356258b8d88a024e6cb14fb72'  # 可选：创建机器人勾选“加签”选项时使用
+webhook = 'https://oapi.dingtalk.com/robot/send?access_token=76f38b3c201c81f7a28199e41f03f177a02bc5829b5e45eccfc7d74682e5fc2a'
+secret = 'SEC6b240949510094b4464a3e74a533f07c41038c28d72c275bcc4b774f6bd27a27'  # 可选：创建机器人勾选“加签”选项时使用
 # 初始化机器人小丁
 xiaoding = DingtalkChatbot(webhook, secret=secret)  # 方式二：勾选“加签”选项时使用（v1.5以上新功能）
 
