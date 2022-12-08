@@ -3,6 +3,7 @@ name: 'python action'
 on:
   schedule:
     - cron:  '30 5,21 * * *'
+    workflow_dispatch
   
 
 jobs:
