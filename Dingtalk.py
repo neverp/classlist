@@ -8,8 +8,9 @@ if __name__ == 'WEBHOOK':
 if __name__ == 'SECRET':
     WEBHOOK = os.environ["SECRET"]
 
+webhook = WEBHOOK
 # 初始化机器人小丁
-xiaoding = DingtalkChatbot(WEBHOOK, secret=SECRET)  # 方式二：勾选“加签”选项时使用（v1.5以上新功能）
+xiaoding = DingtalkChatbot(webhook, secret=SECRET)  # 方式二：勾选“加签”选项时使用（v1.5以上新功能）
 
 # 今天星期几
 Week2 = int(time.strftime("%w"))
