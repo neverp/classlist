@@ -20,7 +20,7 @@ classlist3 = "星期三\n数学\n语文\n体育\n政治\n历史\n\n数学\n英�
 classlist4 = "星期四\n历史\n英语\n物理\n数学\n\n政治\n英语\n语文\n语文\n\n化学\n语文"
 classlist5 = "星期五\n化学\n语文\n物理\n历史\n数学\n\n语文\n英语\n体育\n数学\n\n物理\n数学"
 classlist6 = "星期六\n数学\n化学\n英语\n英语\n\n语文\n数学\n物理\n政治\n\n英语\n语文"
-classlist7 = "0"
+classlist7 = "星期日\n化学\n政治\n语文\n英语\n物理"
 
 if Week == '1':
     xiaoding.send_text(msg=classlist1, is_at_all=False)
@@ -35,4 +35,4 @@ elif Week == '5':
 elif Week == '6':
     xiaoding.send_text(msg=classlist6, is_at_all=False)
 elif Week == '7':
-    print("nothing")
+    xiaoding.send_text(msg=classlist7, is_at_all=False)
