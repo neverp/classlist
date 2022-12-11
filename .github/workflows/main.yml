@@ -1,6 +1,7 @@
 name: 'python action'
 
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '20 22 * * *'
   
@@ -20,6 +21,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install DingtalkChatbot
       - name: 'sendDingding'
+        env:
+            WEBHOOK: ${{ secrets.WEBHOOK }}
+            SECERT: ${{ secrets.SECERT }}
+            
+
         run: python Dingtalk.py
 
 
