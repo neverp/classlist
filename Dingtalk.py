@@ -2,10 +2,10 @@ from dingtalkchatbot.chatbot import DingtalkChatbot
 import time
 import os
 
-if __name__ == 'WEBHOOK':
+if __name__ == '__main__':
     WEBHOOK = os.environ["WEBHOOK"]
 
-if __name__ == 'SECRET':
+if __name__ == '__main__':
     WEBHOOK = os.environ["SECRET"]
 
 webhook = WEBHOOK
