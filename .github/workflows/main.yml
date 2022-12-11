@@ -22,8 +22,8 @@ jobs:
           pip install DingtalkChatbot
       - name: 'sendDingding'
         env:
-            WEBHOOK: ${{ secrets.WEBHOOK }}
-            SECERT: ${{ secrets.SECERT }}
+            WEBHOOK: ${{ Secrets.WEBHOOK }}
+            SECERT: ${{ Secrets.SECERT }}
             
 
         run: python Dingtalk.py
