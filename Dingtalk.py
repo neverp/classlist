@@ -6,7 +6,7 @@ if __name__ == '__main__':
     WEBHOOK = os.environ["WEBHOOK"]
 
 if __name__ == '__main__':
-    WEBHOOK = os.environ["SECRET"]
+    SECRET = os.environ["SECRET"]
 
 webhook = WEBHOOK
 # 初始化机器人小丁
