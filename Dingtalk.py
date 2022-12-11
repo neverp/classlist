@@ -7,7 +7,6 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     secert = os.environ["SECERT"]
 
-webhook = WEBHOOK
 # 初始化机器人小丁
 xiaoding = DingtalkChatbot(webhook, secret=secret)  # 方式二：勾选“加签”选项时使用（v1.5以上新功能）
 
