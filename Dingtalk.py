@@ -3,7 +3,9 @@ import time
 import os
 
 if __name__ == '__main__':
-    SECRET = os.environ["SECRET"]
+    webhook = os.environ["webhook"]
+if __name__ == '__main__':
+    secert = os.environ["secret"]
 
 webhook = WEBHOOK
 # 初始化机器人小丁
