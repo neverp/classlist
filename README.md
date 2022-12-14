@@ -3,4 +3,4 @@
 ---
 ### 更新
 12.11
-使用更安全的 Github Secrets 来隐藏隐藏敏感信息
+使用更安全的 Github Secrets 来隐藏敏感信息
